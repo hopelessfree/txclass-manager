@@ -1,0 +1,14 @@
+.header {
+  position           : fixed;
+  top                : 0;
+  left               : 0;
+  width              : 100%;
+  // min-width       : 1200px;
+  height             : 60px;
+  padding            : 0 15px;
+  background-color   : #FFF;
+  border-bottom      : 1px solid #DDD;
+  box-sizing         : border-box;
+
+  z-index: 2;
+}

@@ -1,4 +1,6 @@
-const BASE_URL = 'http://localhost:3000'
+const BASE_URL = process.env.NODE_ENV === 'production'
+  ? 'http://txclass-crawler.songxianwei.com'
+  : 'http://localhost:3000'
 
 const URLS = {
   LOGIN_ACTION: '/admin/login_action',

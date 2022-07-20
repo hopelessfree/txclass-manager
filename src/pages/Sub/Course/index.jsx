@@ -39,7 +39,6 @@ const Course = () => {
     }
 
     if (error_code === 20001) {
-      alert('获取数据失败，请检查网络状况')
       return
     }
 
